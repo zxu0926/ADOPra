@@ -1,4 +1,3 @@
-
 #pragma once
 #include <string>
 #include <numeric>
@@ -7,6 +6,7 @@
 #include <iostream>
 #include <xlocbuf>
 #include <codecvt>
+using namespace std;
 
 class string_util
 {

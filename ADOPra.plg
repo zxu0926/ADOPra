@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ADOPra - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ADOPra.res" /d "_DEBUG" /d "_AFXDLL" "E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\ADOPra.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/ADOPra.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\AddRecordDlg.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\ADOPra.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\ADOPraDlg.cpp"
+"E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\QueryDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/ADOPra.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\»Ò”¢‘¥\¡∑œ∞\ADOPra\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ADOPra.pdb" /debug /machine:I386 /out:"Debug/ADOPra.exe" /pdbtype:sept 
+".\Debug\AddRecordDlg.obj"
+".\Debug\ADOPra.obj"
+".\Debug\ADOPraDlg.obj"
+".\Debug\QueryDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ADOPra.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddRecordDlg.cpp
+e:\»Ò”¢‘¥\¡∑œ∞\adopra\debug\msado15.tlh(476) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+ADOPra.cpp
+e:\»Ò”¢‘¥\¡∑œ∞\adopra\debug\msado15.tlh(476) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+ADOPraDlg.cpp
+e:\»Ò”¢‘¥\¡∑œ∞\adopra\debug\msado15.tlh(476) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+QueryDlg.cpp
+e:\»Ò”¢‘¥\¡∑œ∞\adopra\debug\msado15.tlh(476) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ADOPra.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

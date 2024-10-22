@@ -8,6 +8,12 @@
 #include <codecvt>
 using namespace std;
 
+#ifdef _UNICODE
+#define string_t wstring
+#else
+#define string_t string
+#endif
+
 class string_util
 {
 public:

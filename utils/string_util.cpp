@@ -35,3 +35,10 @@ std::string& string_util::reverse(std::string &str)
 	std::reverse(str.begin(), str.end());
 	return str;
 }
+
+std::string string_util::to_upper_copy(std::string &str)
+{
+	std::string string_str_ret = str;
+	transform(string_str_ret.begin(), string_str_ret.end(), string_str_ret.begin(), ::toupper);
+	return string_str_ret;
+}

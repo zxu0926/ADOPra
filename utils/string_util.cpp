@@ -36,6 +36,12 @@ std::string& string_util::reverse(std::string &str)
 	return str;
 }
 
+std::string& string_util::to_upper(std::string &str)
+{
+	transform(str.begin(), str.end(), str.begin(), ::toupper);
+	return str;
+}
+
 std::string string_util::to_upper_copy(std::string &str)
 {
 	std::string string_str_ret = str;

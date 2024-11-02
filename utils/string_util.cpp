@@ -1,6 +1,7 @@
 #include "string_util.h"
 #include <windows.h>
 
+
 string_util::string_util()
 {
 }
@@ -47,4 +48,10 @@ std::string string_util::to_upper_copy(std::string &str)
 	std::string string_str_ret = str;
 	transform(string_str_ret.begin(), string_str_ret.end(), string_str_ret.begin(), ::toupper);
 	return string_str_ret;
+}
+
+std::string& string_util::to_lower(std::string &str)
+{
+	transform(str.begin(), str.end(), str.begin(), ::tolower);
+	return str;
 }

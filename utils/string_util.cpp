@@ -55,3 +55,10 @@ std::string& string_util::to_lower(std::string &str)
 	transform(str.begin(), str.end(), str.begin(), ::tolower);
 	return str;
 }
+
+std::string string_util::left(std::string &str, size_t n_count)
+{
+	if (str.size() <= 0 || n_count <= 0) return "";
+	if (str.size() <= n_count) return str;
+	return str.substr(0, n_count);
+}

@@ -41,5 +41,7 @@ public:
 	static std::string mid(std::string &str, size_t i_start, size_t n_count);
 	static std::string mid_l_r(std::string &str, std::string str_left, std::string str_right, bool b_inc_start = false, bool b_inc_end = false);
 	static std::string span_including(std::string& str, std::string str_key);
+
+	static bool start_with(std::string &str, std::string str_begin);
 };
 

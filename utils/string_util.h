@@ -64,5 +64,6 @@ public:
 	static std::string to_astring(string_t str);
 
 	static std::wstring gbk2unicode(std::string str_gbk);
+	static std::string unicode2gbk(std::wstring str_unicode);
 };
 

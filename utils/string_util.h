@@ -63,7 +63,9 @@ public:
 	static std::wstring to_wstring(string_t str);
 	static std::string to_astring(string_t str);
 
+public:
 	static std::wstring gbk2unicode(std::string str_gbk);
 	static std::string unicode2gbk(std::wstring str_unicode);
+	static std::string gbk2utf8(std::string str_gbk);
 };
 
